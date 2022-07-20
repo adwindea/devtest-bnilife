@@ -1,0 +1,15 @@
+C:\Web\BNILifeTest\bin\Debug\net6.0\BNILifeTest.exe
+C:\Web\BNILifeTest\bin\Debug\net6.0\BNILifeTest.deps.json
+C:\Web\BNILifeTest\bin\Debug\net6.0\BNILifeTest.runtimeconfig.json
+C:\Web\BNILifeTest\bin\Debug\net6.0\BNILifeTest.dll
+C:\Web\BNILifeTest\bin\Debug\net6.0\BNILifeTest.pdb
+C:\Web\BNILifeTest\obj\Debug\net6.0\BNILifeTest.csproj.AssemblyReference.cache
+C:\Web\BNILifeTest\obj\Debug\net6.0\BNILifeTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Web\BNILifeTest\obj\Debug\net6.0\BNILifeTest.AssemblyInfoInputs.cache
+C:\Web\BNILifeTest\obj\Debug\net6.0\BNILifeTest.AssemblyInfo.cs
+C:\Web\BNILifeTest\obj\Debug\net6.0\BNILifeTest.csproj.CoreCompileInputs.cache
+C:\Web\BNILifeTest\obj\Debug\net6.0\BNILifeTest.dll
+C:\Web\BNILifeTest\obj\Debug\net6.0\refint\BNILifeTest.dll
+C:\Web\BNILifeTest\obj\Debug\net6.0\BNILifeTest.pdb
+C:\Web\BNILifeTest\obj\Debug\net6.0\BNILifeTest.genruntimeconfig.cache
+C:\Web\BNILifeTest\obj\Debug\net6.0\ref\BNILifeTest.dll

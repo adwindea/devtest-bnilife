@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BNI Life Test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            html, body {
+                margin: 0;
+                height: 100%;
+            }
+            .main-wrapper {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+            .form-group:hover {
+                background-color: yellow;
+            }
+            .selected{
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main-wrapper">
+            <div class="form-group">
+                <input type="radio" id="html" name="fav_language" value="HTML" onclick="selectItem(this)">
+                <label for="html">HTML</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" id="css" name="fav_language" value="CSS" onclick="selectItem(this)">
+                <label for="css">CSS</label>  
+            </div>
+            <div class="form-group">
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript" onclick="selectItem(this)">
+                <label for="javascript">JavaScript</label>  
+            </div>
+            <div class="form-group">
+                <input type="radio" id="csharp" name="fav_language" value="C#" onclick="selectItem(this)">
+                <label for="csharp">C#</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" id="dotnet" name="fav_language" value="dotNet" onclick="selectItem(this)">
+                <label for="dotnet">dotNet</label>    
+            </div>
+        </div>
+    </body>
+
+    <script>
+        function selectItem(el){
+            let formGroup = document.querySelectorAll('.form-group');
+            formGroup.forEach(form => {
+                form.classList.remove('selected');
+            });
+            el.parentElement.classList.add('selected');
+            alert(el.value);
+        }
+    </script>
+</html>
